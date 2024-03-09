@@ -62,3 +62,58 @@ Desenvolver uma aplicação em Delphi que simule um sistema de gerenciamento de 
 - Testes e documentação.
 
 Boa sorte com o desafio! Estamos animados para ver o que você pode criar.
+
+
+----------------------------------------------------------------------------
+
+## - Solução proposta:
+
+Foi desenvolvido um sistema para entrada e saida de produtos
+
+Fluxograma da solução
+
+![Diagramas técnicos](https://github.com/winaba/desafio-delphi/assets/17182623/9d1b9d47-60ef-4746-9d3c-27ed1d01973f)
+
+
+Composto por:
+- telas de Login, 
+- cadastro de usuario, 
+- entrada e saida de produtos, 
+- cadastro de produtos
+
+Ao abrir o sistema é apresentado a tela de login:
+
+![Captura de tela 2024-03-09 031242](https://github.com/winaba/desafio-delphi/assets/17182623/e37e77fd-d421-472f-9c55-d029268fbd6e)
+
+
+Caso não possua usuario, é necessario cadastra-lo no botão 'Cadastrar'
+
+![Captura de tela 2024-03-09 031328](https://github.com/winaba/desafio-delphi/assets/17182623/33e715f1-b734-4fc4-93e8-8e8d57a22e24)
+
+
+Depois de possuir o cadastro e se logar, será apresentado a tela de entrada e saída de prdoutos
+
+![Captura de tela 2024-03-09 031959](https://github.com/winaba/desafio-delphi/assets/17182623/4ec5fbcb-7ecf-4557-afba-34bc86bdc4f5)
+
+Caso no momento do cadastro da movimentação o produto não esteja disponivel, clique no botão '+'
+
+![Captura de tela 2024-03-09 032032](https://github.com/winaba/desafio-delphi/assets/17182623/46ddf955-c97c-406a-b624-931e8849ed45)
+
+
+Configuração
+
+Para rodar a aplicação é necerio tem um arquivo ini ```config.ini``` configurado no mesmo diretório que o exe
+
+Exemplo:
+
+```
+[base]
+path=E:\estudos\delphi\desafio_khipo2\desafio-delphi\src\database\desafio_delphi.db
+```
+Banco de dados
+
+O banco de dados utilizado nesta aplicação foi o SQLite
+
+há exemplos de banco de dados em 'src/database'
+
+
