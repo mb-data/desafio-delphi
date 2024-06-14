@@ -51,7 +51,7 @@ Desenvolver uma aplicação em Delphi que simule um sistema de gerenciamento de 
 
 1. Crie um repositório no GitHub para o seu projeto.
 2. Faça commits e pushes das suas mudanças para esse repositório.
-3. Envie um e-mail para [pedro.miotti@khipo.com.br] com o link do repositório.
+3. Envie um e-mail para [ricardo.bisan@khipo.com.br] com o link do repositório.
 
 ## 🧪 Avaliação:
 
